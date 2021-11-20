@@ -36,6 +36,6 @@ result_file = "F:\\Прога\\filter-profiler\\images\\image_r.jpg"
 image_array = array(Image.open(source_file))
 width = len(image_array)
 height = len(image_array[1])
-mosaic_size = 50
+mosaic_size = 10
 scale_step = 1
 create_mosaic()
